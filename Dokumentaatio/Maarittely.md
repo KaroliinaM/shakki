@@ -1,0 +1,1 @@
+Tarkoitus on kehittää shakille tekoäly, joka puystyy pelaamaan shakkia paremmin kuin minä(ei siis ennakoi kovin monen siirron päähän). Ohjelma saa tiedoksi siirron, jolloin se päättelee oman siirtonsa. Ohjelmointikieli on Java.  Aika -ja tilavaativuudet tarkentuvat myöhemmin, kuten myös käytettävät algoritmit ja tietorakenteet.
