@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package shakki;
+package shakki.nappulat;
 
 /**
  *
  * @author kape
  */
-public class Shakki {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Sotilas extends Nappula{
+    
+    public Sotilas()
+    {
+        super();
+        super.tyyppi="Sotilas";
+    }
+    
+    public void siirto()
+    {
+        super.x=+2;
     }
     
 }

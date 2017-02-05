@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package shakki.shakki;
 
 /**
  *
- * @author karoliina
+ * @author kape
  */
 public class Peli {
     

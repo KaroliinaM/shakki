@@ -3,19 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package shakki.nappulat;
 
 /**
  *
- * @author Karoliina
+ * @author kape
  */
-public class Nappula {
-    private int tyyppi;
-    private boolean pelissa;
+public class Torni extends Nappula {
     
-    public Nappula(int tyyppi)
+    public Torni()
     {
-        this.tyyppi=tyyppi;
-        this.pelissa=true;
+        super();
+        super.tyyppi="Torni";
+    }
+        public void siirto()
+    {
+        
     }
     
 }

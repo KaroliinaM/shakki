@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package shakki.nappulat;
 
 /**
  *
- * @author Karoliina
+ * @author kape
  */
-public class Pelilauta {
-    
-    private int x;
-    private int y;
-    
-    public Pelilauta()
+public class Ratsu extends Nappula{
+    public Ratsu()
+    {
+        super();
+        super.tyyppi="Ratsu";
+    }
+        public void siirto()
     {
         
     }
