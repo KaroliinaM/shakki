@@ -5,6 +5,8 @@
  */
 package shakki.nappulat;
 
+import shakki.shakki.Pelilauta;
+
 /**
  *
  * @author kape
@@ -18,6 +20,16 @@ public class Ratsu extends Nappula{
         public void siirto()
     {
         
+    }
+
+    @Override
+    public void siirto(int n) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void vastustajanSyonti() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

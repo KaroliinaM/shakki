@@ -5,6 +5,8 @@
  */
 package shakki.nappulat;
 
+import shakki.shakki.Pelilauta;
+
 /**
  *
  * @author kape
@@ -17,9 +19,19 @@ public class Sotilas extends Nappula{
         super.tyyppi="Sotilas";
     }
     
-    public void siirto()
+    public void siirto(int n)
     {
+        if(n==2)
+        {
         super.x=+2;
+        }
+        
+        
+    }
+
+    @Override
+    public void vastustajanSyonti() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

@@ -1,0 +1,1 @@
+Taistelen edelleen luokkien kanssa. Algoritmi on vielä alkutekijöissään. Jumitan siihen, miten eriyttää siirron omiksi kokonaisuuksikseen. Viisaampaa ehkä olisi saada perusrakenteet kuntoon. Tämä vaatii vielä paljon työtä.

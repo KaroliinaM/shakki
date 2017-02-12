@@ -38,5 +38,17 @@ public class Pelilauta {
             }
         }
     }
+    public boolean paikkaVapaana(Pelaaja pelaaja, int x, int y)
+    {
+        if(pelaaja.palautaMones(x, y)==-1)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+        
+    }
     
 }

@@ -23,10 +23,10 @@ public class Pelaaja {
     String vari;
     ArrayList<Nappula> nappulat;
 
-    public Pelaaja(String vari) {
+    public Pelaaja(String vari, Pelilauta lauta) {
         this.vari = vari;
         this.nappulat=new ArrayList<Nappula>();
-        luoNappulat();
+        luoNappulat(lauta);
 
     }
 
@@ -58,26 +58,26 @@ public class Pelaaja {
 
     }
 
-    public void luoNappulat() {
+    public void luoNappulat(Pelilauta lauta) {
         for (int i = 0; i < 8; i++) {
-            Nappula nappula = new Sotilas();
+            Nappula nappula = new Sotilas(lauta);
             nappulat.add(nappula);
         }
         for (int i = 0; i < 2; i++) {
-            Nappula nappula = new Torni();
+            Nappula nappula = new Torni(lauta);
             nappulat.add(nappula);
         }
         for (int i = 0; i < 2; i++) {
-            Nappula nappula = new Ratsu();
+            Nappula nappula = new Ratsu(lauta);
             nappulat.add(nappula);
         }
         for (int i = 0; i < 2; i++) {
-            Nappula nappula = new Lahetti();
+            Nappula nappula = new Lahetti(lauta);
             nappulat.add(nappula);
         }
-        Nappula kuningatar = new Kuningatar();
+        Nappula kuningatar = new Kuningatar(lauta);
         nappulat.add(kuningatar);
-        Nappula kuningas = new Kuningas();
+        Nappula kuningas = new Kuningas(lauta);
         nappulat.add(kuningas);
     }
 

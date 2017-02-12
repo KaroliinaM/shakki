@@ -5,6 +5,8 @@
  */
 package shakki.nappulat;
 
+import shakki.shakki.Pelilauta;
+
 /**
  *
  * @author kape
@@ -15,17 +17,23 @@ public abstract class Nappula {
     protected int y;
     protected boolean pelissa;
     protected String tyyppi;
+    protected Pelilauta pelilauta;
     
     public Nappula()
     {
         pelissa=true;
+    }
+    public void getLauta(Pelilauta lauta)
+    {
+        this.pelilauta=lauta;
     }
     public void syonti()
     {
         pelissa=false;
     }
     
-    public abstract void siirto();
+    public abstract void siirto(int n);
+    public abstract void vastustajanSyonti();
     
     public String getTyyppi()
     {
